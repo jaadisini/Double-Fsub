@@ -28,7 +28,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7688387817"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URL = "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "sfub")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
