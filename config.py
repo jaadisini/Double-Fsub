@@ -42,6 +42,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/The_How_To_Open/13")
 FORCESUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002282577591"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002350008026"))
 FORCESUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002319746161"))
+FORCESUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002406379151"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
